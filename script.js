@@ -8,7 +8,7 @@ const formSearch = document.querySelector('.form-search'),
 	cheapestTicket = document.getElementById('cheapest-ticket'),
 	otherCheapTickets = document.getElementById('other-cheap-tickets')
 
-const citiesAPI = 'http://api.travelpayouts.com/data/ru/cities.json',
+const citiesAPI = 'https://api.travelpayouts.com/data/ru/cities.json',
 	placeholderJSON = 'https://jsonplaceholder.typicode.com/todos/1',
 	proxy = 'https://cors-anywhere.herokuapp.com/',
 	API_KEY = '03f8a457b1fbf141cb942cea6276a964', //  https://www.travelpayouts.com/programs/100/tools/api - от сюда взял ключ
